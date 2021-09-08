@@ -2,3 +2,30 @@
   height: 310px;
   width: 200px;
 }
+
+.projects {
+  display: grid;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  padding-bottom: 39px;
+}
+
+.name {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.main-container {
+  text-align: -webkit-center;
+}
+
+.exception {
+  text-align: center;
+}
