@@ -52,10 +52,13 @@ function App() {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container-flex">
                 <div className="projects">
                     <img className="images" src={tipCalculator}></img>
                     <a className="name" href="https://tip-calculatorr.herokuapp.com/%20deployed%20to%20Heroku" target="_blank"> Tip Calculator </a>
+                </div>
+                <div>
+                    
                 </div>
             </div>
         </div>
