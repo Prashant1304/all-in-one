@@ -5,6 +5,8 @@
 
 .projects {
   display: grid;
+  grid-gap: 31px;
+  grid-template-rows: repeat(auto-fit, minmax(254px, 1fr));
 }
 
 .container {
