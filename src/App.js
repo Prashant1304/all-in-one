@@ -5,6 +5,7 @@ import quiz from "./component/images/Quiz.png"
 import tinder from "./component/images/tinder.png"
 import tipCalculator from "./component/images/tip-calculator.png"
 import toDoList from "./component/images/to-do-list.png"
+import Weather from "./component/images/weather.jpeg"
 
 import './App.css';
 
@@ -57,8 +58,10 @@ function App() {
                     <img className="images" src={tipCalculator}></img>
                     <a className="name" href="https://tip-calculatorr.herokuapp.com/%20deployed%20to%20Heroku" target="_blank"> Tip Calculator </a>
                 </div>
-                <div>
-                    
+
+                <div className="projects">
+                <img className="images" src={Weather}></img>
+                    <a className="name" href="https://reactt-weather-app.herokuapp.com/" target="_blank">Weather</a>    
                 </div>
             </div>
         </div>
